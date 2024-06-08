@@ -36,7 +36,7 @@ export default function Home() {
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Front-end</p>
               <div>
-                <p className={styles.skills}>HTML/CSS, JavaScript, React, Next.js,Node.js, TypeScript, Tailwind CSS, Styled Components,Selenium.</p>
+                <p className={styles.skills}>HTML/CSS, JavaScript, React, Next.js,Node.js, TypeScript, Tailwind CSS, Styled Components, Selenium.</p>
                 <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,nodejs,typescript,tailwind,styledcomponents,selenium" alt="Skills Image." />
               </div>
             </li>
