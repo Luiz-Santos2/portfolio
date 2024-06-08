@@ -69,7 +69,7 @@ export default function Home() {
               <div className={styles.separator} />
               <div className={styles.experienceContent}>
                 <div className={styles.experienceItem}>
-                  <h1>Freelancer Developer: Full Stack</h1>
+                  <h1>Developer: Full Stack</h1>
                   <p>As a freelance developer, I had the opportunity to create a project from scratch, from design to final application, both the informative application about pregnancy, childbirth and postpartum, to the manager responsible for handling the data.</p>
                 </div>
                 <p className={styles.experienceDate}>2024-2024</p>
