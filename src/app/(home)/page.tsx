@@ -13,7 +13,7 @@ export default function Home() {
         <section className={styles.presentation} id="about">
           <div className={styles.myInfo}>
             <h2>I'm <span><a href='https://github.com/luiz-santos2'>Luiz Clovis</a></span></h2>
-            <p>Hi! My internet alias is FuryForever, but my real name is Messias. <br /> I am a Brazilian student and a Full Stack developer.</p>
+            <p> Welcome to my online portfolio! I'm Luiz Clovis, a front-end developer passionate about web and mobile development. <br />Over the years, I have dedicated myself to transforming creative ideas into practical and innovative solutions, <br />always focusing on excellence and customer satisfaction.<br /> I am a Brazilian student and a Front- end developer.</p>
             <div className={styles.socialLinks}>
               <ul>
                 <li>
@@ -34,45 +34,31 @@ export default function Home() {
           <h3 className={styles.sectionTitle} id="skills"><a href="https://github.com/Furyforev3r#%EF%B8%8F-skills">My skills</a></h3>
           <ul className={styles.skillsContainer}>
             <li className={styles.skill}>
-              <p className={styles.skillTitle}>Back-end</p>
-              <div>
-                <p className={styles.skills}>JS/Node, TypeScript, Python, PHP, Java, C#, Rust, Go, ExpressJS, FastAPI, NextJS, NestJS.</p>
-                <img src="https://skillicons.dev/icons?i=js,nodejs,typescript,python,php,java,cs,rust,go,expressjs,fastapi,nextjs,nestjs" />
-              </div>
-            </li>
-            <li className={styles.skill}>
               <p className={styles.skillTitle}>Front-end</p>
               <div>
-                <p className={styles.skills}>HTML/CSS, ReactJS, NextJS, VueJS, NuxtJS, TypeScript, Tailwind CSS, Vite, Styled Components, Sass/Scss, jQuery, Tauri.</p>
-                <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,vuejs,nuxtjs,typescript,tailwind,vite,styledcomponents,sass,scss,jquery,tauri" alt="Skills Image." />
+                <p className={styles.skills}>HTML/CSS, JavaScript, React, Next.js,Node.js, TypeScript, Tailwind CSS, Styled Components.</p>
+                <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,nodejs,typescript,tailwind,styledcomponents" alt="Skills Image." />
               </div>
             </li>
             <li className={styles.skill}>
               <p className={styles.skillTitle}>DataBases</p>
               <div>
-                <p className={styles.skills}>Firebase, MongoDB, SQL/NoSQL.</p>
-                <img src="https://skillicons.dev/icons?i=firebase,mongodb,mysql,postgresql,sqlite" alt="Skills Image." />
+                <p className={styles.skills}>Firebase, SQLite, MongoDB, MySQL</p>
+                <img src="https://skillicons.dev/icons?i=firebase,sqlite,mongodb,mysql" alt="Skills Image." />
               </div>
             </li>
             <li className={styles.skill}>
-              <p className={styles.skillTitle}>Android</p>
+              <p className={styles.skillTitle}>Mobile</p>
               <div>
-                <p className={styles.skills}>React Native, Kotlin/Java/Android Studio.</p>
-                <img src="https://skillicons.dev/icons?i=react,kotlin,java,androidstudio" alt="Skills Image." />
-              </div>
-            </li>
-            <li className={styles.skill}>
-              <p className={styles.skillTitle}>GameDev</p>
-              <div>
-                <p className={styles.skills}>Construct 3, Unity2D/3D, Godot.</p>
-                <img src="https://skillicons.dev/icons?i=unity,godot" alt="Skills Image." />
+                <p className={styles.skills}>React Native, Expo</p>
+                <img src="https://skillicons.dev/icons?i=react" alt="React Native Logo" />
               </div>
             </li>
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Tools</p>
               <div>
-                <p className={styles.skills}>Vercel, Git/GitHub/GitLab, Bash, Powershell, Visual Studio Code/Visual Studio, Discord, Gradle, (JetBrains) Idea, Linux, Markdown, Photoshop, Replit, SublimeText.</p>
-                <img src="https://skillicons.dev/icons?i=vercel,git,github,gitlab,bash,powershell,vscode,visualstudio,discord,gradle,idea,linux,md,ps,replit" alt="Skills Image." />
+                <p className={styles.skills}>Vercel, Git/GitHub/GitLab/GitHubActions, Bash, Powershell, Visual Studio Code, Discord.</p>
+                <img src="https://skillicons.dev/icons?i=vercel,git,github,gitlab,githubactions,bash,powershell,vscode,discord" alt="Skills Image." />
               </div>
             </li>
           </ul>
@@ -84,28 +70,9 @@ export default function Home() {
               <div className={styles.experienceContent}>
                 <div className={styles.experienceItem}>
                   <h1>Freelancer Developer: Full Stack</h1>
-                  <p>As a freelance full stack developer, I've had the opportunity to work on a variety of projects for diverse clients, including numerous ventures abroad, with a significant focus on clients from Canada. From building responsive front-end interfaces to developing robust back-end solutions, my role encompasses the entire development lifecycle. With a focus on delivering high-quality, scalable code, I thrive in remote work environments, collaborating closely with clients to understand their needs and exceed their expectations. I pride myself on delivering top-notch results while fostering strong client relationships, ensuring seamless collaboration regardless of distance.</p>
+                  <p>As a freelance developer, I had the opportunity to create a project from scratch, from design to final application, both the informative application about pregnancy, childbirth and postpartum, to the manager responsible for handling the data.</p>
                 </div>
-              </div>
-            </li>
-            <li className={styles.experience}>
-              <div className={styles.separator} />
-              <div className={styles.experienceContent}>
-                <div className={styles.experienceItem}>
-                  <h1>Brazil Mobile School: Monitor/Trainee</h1>
-                  <p>As a student monitor at Brazil Mobile School, I took on the responsibility of assisting the school's students and facilitating learning across various concepts and technologies. From code reviews to guiding practical projects, I was there to provide technical support and encourage the progress of each student. My role also involved collaborating with instructors to ensure an effective and rewarding learning experience for all participants.</p>
-                </div>
-                <p className={styles.experienceDate}>2021-2022</p>
-              </div>
-            </li>
-            <li className={styles.experience}>
-              <div className={styles.separator} />
-              <div className={styles.experienceContent}>
-                <div className={styles.experienceItem}>
-                  <h1>Brazil Mobile School: Intern</h1>
-                  <p>As a full stack intern at Brazil Mobile School, I've had the invaluable opportunity to immerse myself in real-world development projects while refining my skills under expert guidance. From assisting in front-end development tasks to contributing to back-end functionalities, my role involves active participation in the entire software development process. Collaborating closely with senior developers and mentors, I've gained hands-on experience in applying theoretical knowledge to practical scenarios, ensuring my growth as a well-rounded professional in the field.</p>
-                </div>
-                <p className={styles.experienceDate}>2022-2024</p>
+                <p className={styles.experienceDate}>2024-2024</p>
               </div>
             </li>
           </ul>
@@ -125,11 +92,11 @@ export default function Home() {
                     <div>
                       <img className={styles.tecIcons} src={`https://skillicons.dev/icons?i=${project.SkillsIcons}`} alt="Tecs." />
                     </div>
+                    <p className={styles.projectDesc}>{project.Tags}</p>
                   </div>
                 </li>
               ))
             }
-
           </ul>
         </section>
       </main>
