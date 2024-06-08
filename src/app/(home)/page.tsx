@@ -2,7 +2,7 @@
 import styles from '../page.module.css'
 import Header from '@/components/header/header'
 import Footer from '@/components/footer/footer'
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import { AiFillChrome, AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import Projects, { Project } from '@/services/projects'
 
 export default function Home() {
@@ -88,6 +88,9 @@ export default function Home() {
                     <p className={styles.projectDesc}>{project.Description}</p>
                     <a href={project.RepositoryURL} className={styles.githubRepo}>
                       <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
+                    </a>
+                    <a href={project.ProjectURL} className={styles.githubRepo}>
+                      <AiFillChrome size={20} className={styles.githubIcon} /> Acesso Web!
                     </a>
                     <div>
                       <img className={styles.tecIcons} src={`https://skillicons.dev/icons?i=${project.SkillsIcons}`} alt="Tecs." />
