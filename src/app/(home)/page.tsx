@@ -43,21 +43,21 @@ export default function Home() {
             <li className={styles.skill}>
               <p className={styles.skillTitle}>DataBases</p>
               <div>
-                <p className={styles.skills}>Firebase, SQLite, MongoDB, MySQL</p>
+                <p className={styles.skills}>Firebase, SQLite, MongoDB, MySQL.</p>
                 <img src="https://skillicons.dev/icons?i=firebase,sqlite,mongodb,mysql" alt="Skills Image." />
               </div>
             </li>
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Mobile</p>
               <div>
-                <p className={styles.skills}>React Native, Expo</p>
+                <p className={styles.skills}>React Native, Expo.</p>
                 <img src="https://skillicons.dev/icons?i=react" alt="React Native Logo" />
               </div>
             </li>
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Tools</p>
               <div>
-                <p className={styles.skills}>Vercel, Git/GitHub/GitLab/GitHubActions, Bash, Powershell, Visual Studio Code, Discord.</p>
+                <p className={styles.skills}>Vercel, Git, GitHub, GitLab, GitHubActions, Bash, Powershell, Visual Studio Code, Discord.</p>
                 <img src="https://skillicons.dev/icons?i=vercel,git,github,gitlab,githubactions,bash,powershell,vscode,discord" alt="Skills Image." />
               </div>
             </li>
