@@ -36,14 +36,14 @@ export default function Home() {
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Front-end</p>
               <div>
-                <p className={styles.skills}>HTML/CSS, JavaScript, React, Next.js,Node.js, TypeScript, Tailwind CSS, Styled Components, Selenium.</p>
+                <p className={styles.skills}>HTML, JavaScript, React, Next.js, Node.js, TypeScript, CSS, Styled Components, Tailwind CSS, Selenium.</p>
                 <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,nodejs,typescript,tailwind,styledcomponents,selenium" alt="Skills Image." />
               </div>
             </li>
             <li className={styles.skill}>
               <p className={styles.skillTitle}>DataBases</p>
               <div>
-                <p className={styles.skills}>Firebase, SQLite, MongoDB, MySQL.</p>
+                <p className={styles.skills}>Firebase, SQLite, SQL Server, MongoDB, MySQL.</p>
                 <img src="https://skillicons.dev/icons?i=firebase,sqlite,mongodb,mysql" alt="Skills Image." />
               </div>
             </li>
@@ -51,7 +51,7 @@ export default function Home() {
               <p className={styles.skillTitle}>Mobile</p>
               <div>
                 <p className={styles.skills}>React Native, Expo.</p>
-                <img src="https://skillicons.dev/icons?i=react" alt="React Native Logo" />
+                <img src="https://skillicons.dev/icons?i=react" alt="Skills Image." />
               </div>
             </li>
             <li className={styles.skill}>
@@ -70,7 +70,7 @@ export default function Home() {
               <div className={styles.experienceContent}>
                 <div className={styles.experienceItem}>
                   <h1>Developer: Full Stack</h1>
-                  <p>As a freelance developer, I had the opportunity to create a project from scratch, from design to final application, both the informative application about pregnancy, childbirth and postpartum, to the manager responsible for handling the data.</p>
+                  <p>As a developer, I had the opportunity to create a project from scratch, from design to final application, both the informative application about pregnancy, childbirth and postpartum, to the manager responsible for handling the data.</p>
                 </div>
                 <p className={styles.experienceDate}>2024-2024</p>
               </div>
