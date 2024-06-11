@@ -13,7 +13,7 @@ export default function Home() {
         <section className={styles.presentation} id="about">
           <div className={styles.myInfo}>
             <h2>I'm <span><a href='https://github.com/luiz-santos2'>Luiz Clovis</a></span></h2>
-            <p> Welcome to my online portfolio! I'm Luiz Clovis, a front-end developer passionate about web and mobile development. <br />Over the years, I have dedicated myself to transforming creative ideas into practical and innovative solutions, <br />always focusing on excellence and customer satisfaction.<br /> I am a Brazilian student and a Front- end developer.</p>
+            <p> Welcome to my online portfolio! I'm Luiz Clovis, a front-end developer passionate about web and mobile development. <br />Over the years, I have dedicated myself to transforming creative ideas into practical and innovative solutions, <br />always focusing on excellence and customer satisfaction.<br /> I am a Brazilian student and a Front-end developer.</p>
             <div className={styles.socialLinks}>
               <ul>
                 <li>
