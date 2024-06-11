@@ -43,8 +43,8 @@ export default function Home() {
             <li className={styles.skill}>
               <p className={styles.skillTitle}>DataBases</p>
               <div>
-                <p className={styles.skills}>Firebase, SQLite, SQL Server, MongoDB, MySQL.</p>
-                <img src="https://skillicons.dev/icons?i=firebase,sqlite,mongodb,mysql" alt="Skills Image." />
+                <p className={styles.skills}>Firebase, PostgreSQL, SQL Server, MongoDB, MySQL.</p>
+                <img src="https://skillicons.dev/icons?i=firebase,postgresql,mongodb,mysql" alt="Skills Image." />
               </div>
             </li>
             <li className={styles.skill}>
