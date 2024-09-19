@@ -39,7 +39,7 @@ const Projects: Array<Project> = [
     },
     {
         id: 3,
-        Title: "forest-equipment",
+        Title: "Forest Equipment",
         Description: "Professional presentation portfolio",
         RepositoryURL: "https://github.com/Luiz-Santos2/forest-equipment",
         ProjectURL: "https://forest-equipment.vercel.app/",
