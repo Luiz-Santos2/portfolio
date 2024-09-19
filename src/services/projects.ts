@@ -42,7 +42,7 @@ const Projects: Array<Project> = [
         Title: "forest-equipment",
         Description: "Professional presentation portfolio",
         RepositoryURL: "https://github.com/Luiz-Santos2/forest-equipment",
-        ProjectURL: "https://forest-equipment-edri1abk9-luiz-santos2s-projects.vercel.app/",
+        ProjectURL: "https://forest-equipment.vercel.app/",
         Tags: ["#Reactjs ", "#Typescript ", "#GitHubActions ", "#Vercel "],
         SkillsIcons: "nextjs,ts,githubactions,vercel"
     },
