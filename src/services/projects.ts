@@ -40,7 +40,7 @@ const Projects: Array<Project> = [
     {
         id: 3,
         Title: "Forest Equipment",
-        Description: "The frontend application collects data from forestry equipment, recording its position and status history (Operating, Stopped or in Maintenance). The status is updated according to use, and the position is captured via GPS and stored periodically, allowing efficient monitoring and decision-making support.",
+        Description: "The frontend application collects data from forestry equipment, recording its position and status history (Operating, Stopped or Under Maintenance).",
         RepositoryURL: "https://github.com/Luiz-Santos2/forest-equipment",
         ProjectURL: "https://forest-equipment.vercel.app/",
         Tags: ["#Reactjs ", "#Typescript ", "#GitHubActions ", "#Vercel "],
