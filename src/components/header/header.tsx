@@ -15,6 +15,9 @@ export default function Header() {
             <a href="#skills">Skills</a>
           </li>
           <li>
+            <a href="#experiences">Experiences</a>
+          </li>
+          <li>
             <a href="#projects">Projects</a>
           </li>
           <li>

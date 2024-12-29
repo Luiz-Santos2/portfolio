@@ -31,7 +31,7 @@ export default function Home() {
           </div>
         </section>
         <section className={styles.section}>
-          <h3 className={styles.sectionTitle} id="skills"><a href="https://github.com/Furyforev3r#%EF%B8%8F-skills">My skills</a></h3>
+          <h3 className={styles.sectionTitle} id="skills"><a href="#skills">My skills</a></h3>
           <ul className={styles.skillsContainer}>
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Front-end</p>
@@ -71,7 +71,7 @@ export default function Home() {
           </ul>
         </section>
         <section className={`${styles.section} ${styles.experienceSection}`}>
-          <ul className={styles.experienceContainer}>
+          <ul className={styles.experienceContainer} id="experiences">
             <li className={styles.experience}>
               <div className={styles.separator} />
               <div className={styles.experienceContent}>

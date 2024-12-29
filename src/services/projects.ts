@@ -30,7 +30,7 @@ const Projects: Array<Project> = [
     },
     {
         id: 3,
-        Title: "Portfolio",
+        Title: "My Portfolio",
         Description: "Professional presentation portfolio",
         RepositoryURL: "https://github.com/Luiz-Santos2/portfolio",
         ProjectURL: "https://portfolio-luiz-clovis.vercel.app/",
