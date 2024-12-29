@@ -64,8 +64,8 @@ export default function Home() {
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Tools</p>
               <div>
-                <p className={styles.skills}>Postman, Vercel, Git, GitHub, GitLab, GitHub Actions, Bash, Powershell, Visual Studio Code, Visual Studio, Docker, Discord.</p>
-                <img src="https://skillicons.dev/icons?i=postman,vercel,git,github,gitlab,githubactions,bash,powershell,vscode,visualstudio,docker,discord" alt="Skills Image." />
+                <p className={styles.skills}>Android Studio, Postman, Vercel, Git, GitHub, GitLab, GitHub Actions, Bash, Powershell, Visual Studio Code, Visual Studio, Docker, Discord.</p>
+                <img src="https://skillicons.dev/icons?i=androidstudio,postman,vercel,git,github,gitlab,githubactions,bash,powershell,vscode,visualstudio,docker,discord" alt="Skills Image." />
               </div>
             </li>
           </ul>
