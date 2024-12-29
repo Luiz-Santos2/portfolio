@@ -3,7 +3,7 @@ export declare interface Project {
     Title: string,
     Description: string,
     RepositoryURL: string,
-    ProjectURL: string,
+    ProjectURL?: string,
     Tags: Array<string>,
     SkillsIcons: string
 }
@@ -38,7 +38,7 @@ const Projects: Array<Project> = [
         SkillsIcons: "nextjs,ts,githubactions,vercel"
     },
     {
-        id: 3,
+        id: 4,
         Title: "Forest Equipment",
         Description: "The frontend application collects data from forestry equipment, recording its position and status history (Operating, Stopped or Under Maintenance).",
         RepositoryURL: "https://github.com/Luiz-Santos2/forest-equipment",
@@ -46,6 +46,15 @@ const Projects: Array<Project> = [
         Tags: ["#Reactjs ", "#Typescript ", "#GitHubActions ", "#Vercel "],
         SkillsIcons: "nextjs,ts,githubactions,vercel"
     },
+    {
+        id: 5,
+        Title: "API REST",
+        Description: "Course on Developing a REST API from Absolute Zero, Covering All Levels of RESTful Maturity, and Deployment on Azure + React JS",
+        RepositoryURL: "https://github.com/Luiz-Santos2/RestWithASP-NET5Udemy",
+        //ProjectURL: "https://api-rest-luiz-clovis.vercel.app/",
+        Tags: ["#Csharp ", "#.Net ", "#EntityFramework "],
+        SkillsIcons: "cs,dotnet"
+    }
  
 ]
 

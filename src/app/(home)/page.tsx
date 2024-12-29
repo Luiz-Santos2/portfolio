@@ -36,8 +36,15 @@ export default function Home() {
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Front-end</p>
               <div>
-                <p className={styles.skills}>HTML, JavaScript, React, Next.js, Node.js, TypeScript, CSS, Styled Components, Tailwind CSS, Selenium.</p>
-                <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,nodejs,typescript,tailwind,styledcomponents,selenium" alt="Skills Image." />
+                <p className={styles.skills}>HTML, JavaScript, React, Next.js, Angular, Node.js, TypeScript, CSS, Styled Components, Tailwind CSS, Selenium.</p>
+                <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,angular,nodejs,typescript,tailwind,styledcomponents,selenium," alt="Skills Image." />
+              </div>
+            </li>
+            <li className={styles.skill}>
+              <p className={styles.skillTitle}>Back-end</p>
+              <div>
+                <p className={styles.skills}>C#, .NET.</p>
+                <img src="https://skillicons.dev/icons?i=cs,dotnet" alt="Skills Image." />
               </div>
             </li>
             <li className={styles.skill}>
@@ -57,8 +64,8 @@ export default function Home() {
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Tools</p>
               <div>
-                <p className={styles.skills}>Vercel, Git, GitHub, GitLab, GitHub Actions, Bash, Powershell, Visual Studio Code, Discord.</p>
-                <img src="https://skillicons.dev/icons?i=vercel,git,github,gitlab,githubactions,bash,powershell,vscode,discord" alt="Skills Image." />
+                <p className={styles.skills}>Postman, Vercel, Git, GitHub, GitLab, GitHub Actions, Bash, Powershell, Visual Studio Code, Visual Studio, Docker, Discord.</p>
+                <img src="https://skillicons.dev/icons?i=postman,vercel,git,github,gitlab,githubactions,bash,powershell,vscode,visualstudio,docker,discord" alt="Skills Image." />
               </div>
             </li>
           </ul>
@@ -69,10 +76,33 @@ export default function Home() {
               <div className={styles.separator} />
               <div className={styles.experienceContent}>
                 <div className={styles.experienceItem}>
-                  <h1>Developer: Full Stack</h1>
-                  <p>As a developer, I had the opportunity to create a project from scratch, from design to final application, both the informative application about pregnancy, childbirth and postpartum, to the manager responsible for handling the data.</p>
+                  <h1>Developer Full Stack</h1>
+                  <p>As a developer, I had the opportunity to design and build a project from the ground up, covering every stage from concept to final application. This included creating an informative application focused on pregnancy, childbirth, and postpartum, as well as developing a management system responsible for handling and processing the data.</p>
                 </div>
-                <p className={styles.experienceDate}>2024-2024</p>
+                <p className={styles.experienceDate}>2024 - 2024</p>
+              </div>
+            </li>
+            <li className={styles.experience}>
+              <div className={styles.separator} />
+              <div className={styles.experienceContent}>
+                <div className={styles.experienceItem}>
+                  <h1>Developer Front-end</h1>
+                  <p>I am currently developing mobile applications using React Native and TypeScript. By combining the efficiency of React Native for cross-platform development with the robustness of TypeScript for safer and more scalable code, I strive to deliver modern and functional solutions.
+                  <br />
+                  <br />
+                    My focus is on creating intuitive user interfaces and implementing features that provide the best user experience while consistently applying development best practices.</p>
+                </div>
+                <p className={styles.experienceDate}>2024 - Undetermined</p>
+              </div>
+            </li>
+            <li className={styles.experience}>
+              <div className={styles.separator} />
+              <div className={styles.experienceContent}>
+                <div className={styles.experienceItem}>
+                  <h1>Developer Full Stack</h1>
+                  <p>Currently, I work with Angular on the frontend, developing responsive and user-friendly interfaces, and C# on the backend, creating robust and efficient systems to support modern web applications.</p>
+                </div>
+                <p className={styles.experienceDate}>2024 - Undetermined</p>
               </div>
             </li>
           </ul>
