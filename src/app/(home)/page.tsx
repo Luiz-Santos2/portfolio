@@ -88,8 +88,8 @@ export default function Home() {
                 <div className={styles.experienceItem}>
                   <h1>Developer Front-end</h1>
                   <p>I am currently developing mobile applications using React Native and TypeScript. By combining the efficiency of React Native for cross-platform development with the robustness of TypeScript for safer and more scalable code, I strive to deliver modern and functional solutions.
-                  <br />
-                  <br />
+                    <br />
+                    <br />
                     My focus is on creating intuitive user interfaces and implementing features that provide the best user experience while consistently applying development best practices.</p>
                 </div>
                 <p className={styles.experienceDate}>2024 - Undetermined</p>
@@ -117,14 +117,12 @@ export default function Home() {
                     <p className={styles.projectTitle}>{project.Title}</p>
                     <p className={styles.projectDesc}>{project.Description}</p>
                     <a href={project.RepositoryURL} className={styles.githubRepo}>
-                      <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
+                      <AiFillGithub size={17} className={styles.githubIcon} /> Github repository!
                     </a>
                     <a href={project.ProjectURL} className={styles.githubRepo}>
-                      <AiFillChrome size={20} className={styles.githubIcon} /> Acesso Web!
+                      <AiFillChrome size={17} className={styles.githubIcon} /> Acesso Web!
                     </a>
-                    <div>
-                      <img className={styles.tecIcons} src={`https://skillicons.dev/icons?i=${project.SkillsIcons}`} alt="Tecs." />
-                    </div>
+                    <img className={styles.tecIcons} src={`https://skillicons.dev/icons?i=${project.SkillsIcons}`} alt="Tecs." />
                     <p className={styles.projectDesc}>{project.Tags}</p>
                   </div>
                 </li>
