@@ -1,0 +1,32 @@
+/* ThemeToggle.module.css */
+
+.themeToggleButton {
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: fixed;
+    top: 90px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 100%;
+  }
+  
+  .darkButton {
+    background-color: var(--background-elevated-base);
+    color: var(--text-base);
+  }
+  
+  .lightButton {
+    background-color: var(--background-highlight);
+    color: var(--text-base);
+  }
+  
+  .themeToggleButton:hover {
+    opacity: 0.8;
+  }
+  
+  .themeToggleButton:active {
+    opacity: 0.6;
+  }  

@@ -9,7 +9,7 @@ export declare interface Project {
 }
 
 
-const Projects: Array<Project> = [
+export const projects: Array<Project> = [
     {
         id: 1,
         Title: "My pregnancy",
@@ -17,7 +17,7 @@ const Projects: Array<Project> = [
         RepositoryURL: "https://github.com/Luiz-Santos2/meu-parto/tree/firebase",
         ProjectURL: "https://expo.dev/preview/update?message=Realizado%20ajuste%20em%20todo%20o%20app%20e%20retirado%20o%20build%20do%20github%20actions&updateRuntimeVersion=1.0.0&createdAt=2024-06-01T01%3A04%3A24.744Z&slug=exp&projectId=a8cd90a2-b424-415a-bab0-e60a456b8363&group=5f531c2a-bc70-4225-9d1a-a66fa729a513",
         Tags: ["#React Native ", "#Typescript ", "#Expo ", "#GitHubActions "],
-        SkillsIcons: "react,ts,githubactions"
+        SkillsIcons: "react,ts,githubactions,expo"
     },
     {
         id: 2,
@@ -52,10 +52,8 @@ const Projects: Array<Project> = [
         Description: "Course on Developing a REST API from Absolute Zero, Covering All Levels of RESTful Maturity, and Deployment on Azure + React JS",
         RepositoryURL: "https://github.com/Luiz-Santos2/RestWithASP-NET5Udemy",
         //ProjectURL: "https://api-rest-luiz-clovis.vercel.app/",
-        Tags: ["#Csharp ", "#.Net ", "#EntityFramework "],
-        SkillsIcons: "cs,dotnet"
+        Tags: ["#Csharp ", "#.Net ", "#EntityFramework ", "#Docker "],
+        SkillsIcons: "cs,dotnet,entityframework, docker"
     }
  
 ]
-
-export default Projects

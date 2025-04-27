@@ -1,0 +1,29 @@
+/* LanguageToggle.module.css */
+
+.languageToggleButton {
+  border: none;
+  padding: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  position: fixed;
+  top: 160px;
+  right: 20px;
+  z-index: 1000;
+  border-radius: 100%;
+  background-color: var(--background-highlight);
+  color: var(--text-base);
+}
+
+.languageToggleButton:hover {
+  opacity: 0.8;
+}
+
+.languageToggleButton:active {
+  opacity: 0.6;
+}
+
+.img {
+  width: 30px;
+  height: 20px;
+}
