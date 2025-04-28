@@ -14,15 +14,8 @@ export default function Footer({ language }: FooterProps) {
     };
   return (
     <footer className={styles.footer} id="contact">
-      <h2 className={styles.footerTitle}>{translate('contact')}</h2>
+      <h3 className={styles.footerTitle} id="projects"><a href="#contact">{translate('contact')}</a></h3>
       <div className={styles.footerItems}>
-        <a 
-          href="mailto:luizclovis2014@gmail.com" 
-          className={styles.contact} 
-          title="Envie-me um e-mail">
-          <FiMail size={32} />
-          <span className={styles.contactText}>E-mail</span>
-        </a>
         <a 
           href="https://linkedin.com/in/luiz-clovis-dos-santos-matias-73a69a271/" 
           className={styles.contact} 
@@ -37,7 +30,15 @@ export default function Footer({ language }: FooterProps) {
           <AiFillGithub size={42} className={styles.githubIcon} />
           <span className={styles.contactText}>GitHub</span>
         </a>
+        <a 
+          href="mailto:luizclovis2014@gmail.com" 
+          className={styles.contact} 
+          title="Envie-me um e-mail">
+          <FiMail size={32} />
+          <span className={styles.contactText}>E-mail</span>
+        </a>
       </div>
+        <h3 className={styles.footerCopyright} >© 2023 Luiz Dev.</h3>
     </footer>
   );
 }
