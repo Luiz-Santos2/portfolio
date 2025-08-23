@@ -45,7 +45,7 @@ export default function Home() {
         <section className={styles.section}>
           <h3 className={styles.sectionTitle} id="skills"><a href="#skills">{translate('skills')}</a></h3>
           <ul className={styles.skillsContainer}>
-            {skills.map((skill: Skill) => (
+            {skills[language].map((skill: Skill) => (
               <li key={skill.id} className={styles.skill}>
                 <p className={styles.skillTitle}>{skill.title}</p>
                 <div>
@@ -60,7 +60,7 @@ export default function Home() {
         <section className={`${styles.section} ${styles.experienceSection}`}>
           <h3 className={styles.sectionTitle} id="experiences"><a href="#experiences">{translate('experiences')}</a></h3>
           <ul className={styles.experienceContainer}>
-            {experience.map((exp: Experience) => (
+            {experience[language].map((exp: Experience) => (
               <li key={exp.id} className={styles.experience}>
                 <div className={styles.separator} />
                 <div className={styles.experienceContent}>
@@ -78,17 +78,19 @@ export default function Home() {
         <section className={styles.section}>
           <h3 className={styles.sectionTitle} id="projects"><a href="#projects">{translate('projects')}</a></h3>
           <ul className={styles.projectsContainer}>
-            {projects.map((project: Project) => (
+            {projects[language].map((project: Project) => (
               <li key={project.id}>
                 <div className={styles.project}>
                   <p className={styles.projectTitle}>{project.Title}</p>
                   <p className={styles.projectDesc}>{project.Description}</p>
                   <a href={project.RepositoryURL} className={styles.githubRepo}>
-                    <AiFillGithub size={17} className={styles.githubIcon} /> Github repository!
+                    <AiFillGithub size={17} className={styles.githubIcon} /> {translate('githubRepo')}
                   </a>
-                  <a href={project.ProjectURL} className={styles.githubRepo}>
-                    <AiFillChrome size={17} className={styles.githubIcon} /> Acesso Web!
-                  </a>
+                  {project.ProjectURL && (
+                    <a href={project.ProjectURL} className={styles.githubRepo}>
+                      <AiFillChrome size={17} className={styles.githubIcon} /> {translate('webAccess')}
+                    </a>
+                  )}
                   <img className={styles.tecIcons} src={`https://skillicons.dev/icons?i=${project.SkillsIcons}`} alt="Tecs." />
                   <p className={styles.projectDesc}>{project.Tags}</p>
                 </div>
