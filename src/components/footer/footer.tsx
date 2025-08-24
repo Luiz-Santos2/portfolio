@@ -1,20 +1,18 @@
+'use client';
+import React, { memo } from 'react';
 import { AiFillGithub, AiOutlineLinkedin } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
-import styles from './footer.module.css'
-import { translations } from '../translate/translations';
+import styles from './footer.module.css';
+import { useLanguage } from '@/contexts/LanguageContext';
 
-interface FooterProps {
-  language: 'pt' | 'en';
-}
+const Footer = memo(() => {
+  const { translate } = useLanguage();
 
-export default function Footer({ language }: FooterProps) {
-
-  const translate = (key: keyof typeof translations['pt']) => {
-      return translations[language][key];
-    };
   return (
     <footer className={styles.footer} id="contact">
-      <h3 className={styles.footerTitle} id="projects"><a href="#contact">{translate('contact')}</a></h3>
+      <h3 className={styles.footerTitle} id="projects">
+        <a href="#contact">{translate('contact')}</a>
+      </h3>
       <div className={styles.footerItems}>
         <a 
           href="https://linkedin.com/in/luiz-clovis-dos-santos-matias-73a69a271/" 
@@ -38,7 +36,11 @@ export default function Footer({ language }: FooterProps) {
           <span className={styles.contactText}>E-mail</span>
         </a>
       </div>
-        <h3 className={styles.footerCopyright} >© 2023 Luiz Dev.</h3>
+      <h3 className={styles.footerCopyright}>© 2023 Luiz Dev.</h3>
     </footer>
   );
-}
+});
+
+Footer.displayName = 'Footer';
+
+export default Footer;

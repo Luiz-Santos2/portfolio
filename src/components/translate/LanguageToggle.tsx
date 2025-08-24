@@ -1,24 +1,15 @@
 'use client';
-import { useState, useEffect } from 'react';
+import React, { memo } from 'react';
 import styles from './LanguageToggle.module.css';
 import Flag from 'react-world-flags';
+import { useLanguage } from '@/contexts/LanguageContext';
 
-export default function LanguageToggle({ setLanguage }: { setLanguage: React.Dispatch<React.SetStateAction<'pt' | 'en'>> }) {
-  const [language, setLocalLanguage] = useState<'pt' | 'en'>('pt');
-
-  useEffect(() => {
-    const savedLanguage = localStorage.getItem('language') as 'pt' | 'en';
-    if (savedLanguage) {
-      setLocalLanguage(savedLanguage);
-      setLanguage(savedLanguage); // Sincroniza o idioma global
-    }
-  }, [setLanguage]);
+const LanguageToggle = memo(() => {
+  const { language, setLanguage } = useLanguage();
 
   const toggleLanguage = () => {
     const newLanguage = language === 'pt' ? 'en' : 'pt';
-    setLocalLanguage(newLanguage);
     setLanguage(newLanguage);
-    localStorage.setItem('language', newLanguage);
   };
 
   return (
@@ -26,4 +17,8 @@ export default function LanguageToggle({ setLanguage }: { setLanguage: React.Dis
       <Flag code={language === 'pt' ? 'BR' : 'US'} className={styles.img} />
     </button>
   );
-}
+});
+
+LanguageToggle.displayName = 'LanguageToggle';
+
+export default LanguageToggle;

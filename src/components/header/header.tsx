@@ -1,14 +1,11 @@
+'use client';
+import React, { memo } from 'react';
 import styles from './header.module.css';
-import { translations } from '../translate/translations';
+import { useLanguage } from '@/contexts/LanguageContext';
+import NavigationLink from '@/components/common/NavigationLink';
 
-interface HeaderProps {
-  language: 'pt' | 'en';
-}
-
-export default function Header({ language }: HeaderProps) {
-  const translate = (key: keyof typeof translations['pt']) => {
-    return translations[language][key];
-  };
+const Header = memo(() => {
+  const { translate } = useLanguage();
 
   return (
     <header className={styles.header}>
@@ -18,22 +15,26 @@ export default function Header({ language }: HeaderProps) {
       <nav>
         <ul>
           <li>
-            <a href="#about">{translate('about')}</a>
+            <NavigationLink href="#about">{translate('about')}</NavigationLink>
           </li>
           <li>
-            <a href="#skills">{translate('skills')}</a>
+            <NavigationLink href="#skills">{translate('skills')}</NavigationLink>
           </li>
           <li>
-            <a href="#experiences">{translate('experiences')}</a>
+            <NavigationLink href="#experiences">{translate('experiences')}</NavigationLink>
           </li>
           <li>
-            <a href="#projects">{translate('projects')}</a>
+            <NavigationLink href="#projects">{translate('projects')}</NavigationLink>
           </li>
           <li>
-            <a href="#contact">{translate('contact')}</a>
+            <NavigationLink href="#contact">{translate('contact')}</NavigationLink>
           </li>
         </ul>
       </nav>
     </header>
   );
-}
+});
+
+Header.displayName = 'Header';
+
+export default Header;

@@ -1,9 +1,8 @@
-// ThemeToggle.tsx
-'use client'
-import { useState, useEffect } from 'react';
-import styles from './ThemeToggle.module.css'
+'use client';
+import React, { useState, useEffect, memo, useCallback } from 'react';
+import styles from './ThemeToggle.module.css';
 
-export default function ThemeToggle() {
+const ThemeToggle = memo(() => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
@@ -11,15 +10,15 @@ export default function ThemeToggle() {
     if (savedMode) {
       setIsDarkMode(savedMode === 'dark');
     } else {
-      setIsDarkMode(false); // Definindo o tema padrão como claro
+      setIsDarkMode(false);
     }
   }, []);
 
-  const toggleTheme = () => {
+  const toggleTheme = useCallback(() => {
     const newMode = !isDarkMode;
     setIsDarkMode(newMode);
     localStorage.setItem('theme', newMode ? 'dark' : 'light');
-  };
+  }, [isDarkMode]);
 
   useEffect(() => {
     if (isDarkMode) {
@@ -38,4 +37,8 @@ export default function ThemeToggle() {
       {isDarkMode ? '🌙' : '🌞'}
     </button>
   );
-}
+});
+
+ThemeToggle.displayName = 'ThemeToggle';
+
+export default ThemeToggle;
