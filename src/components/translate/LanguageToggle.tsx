@@ -12,9 +12,18 @@ const LanguageToggle = memo(() => {
     setLanguage(newLanguage);
   };
 
+  const isPortuguese = language === 'pt';
+  const nextLabel = isPortuguese ? 'Alterar idioma para inglês' : 'Change language to Portuguese';
+
   return (
-    <button onClick={toggleLanguage} className={styles.languageToggleButton}>
-      <Flag code={language === 'pt' ? 'BR' : 'US'} className={styles.img} />
+    <button
+      onClick={toggleLanguage}
+      className={styles.languageToggleButton}
+      aria-label={nextLabel}
+      aria-pressed={isPortuguese ? false : true}
+      title={nextLabel}
+    >
+      <Flag code={isPortuguese ? 'BR' : 'US'} className={styles.img} />
     </button>
   );
 });

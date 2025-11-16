@@ -14,11 +14,23 @@ const ProjectItem = memo(({ project }: { project: any }) => {
       <div className={styles.project}>
         <p className={styles.projectTitle}>{project.Title}</p>
         <p className={styles.projectDesc}>{project.Description}</p>
-        <a href={project.RepositoryURL} className={styles.githubRepo}>
+        <a
+          href={project.RepositoryURL}
+          className={styles.githubRepo}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Abrir repositório no GitHub em nova aba"
+        >
           <AiFillGithub size={17} className={styles.githubIcon} /> {translate('githubRepo')}
         </a>
         {project.ProjectURL && (
-          <a href={project.ProjectURL} className={styles.githubRepo}>
+          <a
+            href={project.ProjectURL}
+            className={styles.githubRepo}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir projeto em nova aba"
+          >
             <AiFillChrome size={17} className={styles.githubIcon} /> {translate('webAccess')}
           </a>
         )}

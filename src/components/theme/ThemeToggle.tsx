@@ -10,7 +10,9 @@ const ThemeToggle = memo(() => {
     if (savedMode) {
       setIsDarkMode(savedMode === 'dark');
     } else {
-      setIsDarkMode(false);
+      // Respeita o prefer-color-scheme do usuário na primeira visita
+      const prefersDark = window.matchMedia?.('(prefers-color-scheme: dark)').matches;
+      setIsDarkMode(prefersDark);
     }
   }, []);
 
@@ -29,10 +31,12 @@ const ThemeToggle = memo(() => {
   }, [isDarkMode]);
 
   return (
-    <button 
-      onClick={toggleTheme} 
-      aria-label="Alternar tema" 
+    <button
+      onClick={toggleTheme}
+      aria-label="Alternar tema"
+      aria-pressed={isDarkMode}
       className={`${styles.themeToggleButton} ${isDarkMode ? styles.darkButton : styles.lightButton}`}
+      title={isDarkMode ? 'Tema escuro ativo' : 'Tema claro ativo'}
     >
       {isDarkMode ? '🌙' : '🌞'}
     </button>

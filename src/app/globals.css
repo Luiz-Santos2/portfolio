@@ -1,3 +1,18 @@
+/* Acessibilidade: foco visível padrão para elementos interativos */
+:where(a, button, [role="button"], input, select, textarea):focus-visible {
+    outline: 2px solid transparent;
+    box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.45);
+    border-radius: 8px;
+}
+
+/* Animações mais suaves para usuários que preferem menos movimento */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+    }
+}
 /* Tema Claro */
 :root {
     --background-base: #ffffff;

@@ -10,9 +10,16 @@ const Header = memo(() => {
   return (
     <header className={styles.header}>
       <h1>
-        <a href="https://github.com/luiz-santos2">Luiz Dev.</a>
+        <a
+          href="https://github.com/luiz-santos2"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Abrir GitHub de Luiz Dev. em nova aba"
+        >
+          Luiz Dev.
+        </a>
       </h1>
-      <nav>
+      <nav aria-label="Navegação principal">
         <ul>
           <li>
             <NavigationLink href="#about">{translate('about')}</NavigationLink>
