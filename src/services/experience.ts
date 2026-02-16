@@ -15,40 +15,40 @@ export const experience: ExperienceTranslations = {
         {
             id: 1,
             title: "Desenvolvedor Full Stack",
-            description: "Como desenvolvedor, tive a oportunidade de projetar e construir um projeto do zero, cobrindo todas as etapas desde o conceito até a aplicação final, incluindo a criação de um aplicativo informativo focado em gravidez, parto e pós-parto, bem como o desenvolvimento de um sistema de gerenciamento.",
-            date: "2024 - 2024"
+            description: "Projetei e construí aplicações do zero, cobrindo o ciclo completo de desenvolvimento. Desenvolvimento de aplicativo informativo especializado em gravidez, parto e pós-parto com interface intuitiva. Implementação de sistema de gerenciamento robusto com backend escalável. Aplicação de melhores práticas em arquitetura, código limpo e experiência do usuário.",
+            date: "2024"
         },
         {
             id: 2,
             title: "Desenvolvedor Front-end",
-            description: "Atualmente estou desenvolvendo aplicativos móveis com React Native e TypeScript, focando na criação de interfaces amigáveis ao usuário e melhores práticas.",
-            date: "2024 - Indeterminado"
+            description: "Desenvolvimento de aplicativos móveis cross-platform com React Native e TypeScript. Criação de interfaces responsivas e intuitivas com foco em experiência do usuário. Implementação de padrões de código limpo, gestão de estado e otimização de performance. Integração com APIs RESTful e consumo eficiente de dados.",
+            date: "2024 - Presente"
         },
         {
             id: 3,
-            title: "Desenvolvedor Full Stack",
-            description: "Trabalho com Angular no frontend e C# no backend, criando UIs responsivas e sistemas backend robustos.",
-            date: "2024 - Indeterminado"
+            title: "Desenvolvedor Full Stack (JOYA Solutions)",
+            description: "Desenvolvimento de aplicações escaláveis com C#, Angular, Node.js e SQL Server. Arquitetura e construção de soluções serverless com Azure Functions. Criação e manutenção de APIs RESTful robustas e de alto desempenho. Implementação de ambientes padronizados com Docker e Git. Otimização de consultas SQL e melhorias estratégicas de arquitetura e performance de sistemas. Participação em sprints ágeis com entrega contínua de valor.",
+            date: "Setembro 2024 - Presente"
         }
     ],
     en: [
         {
             id: 1,
-            title: "Developer Full Stack",
-            description: "As a developer, I had the opportunity to design and build a project from the ground up, covering every stage from concept to final application, including creating an informative app focused on pregnancy, childbirth, and postpartum, as well as developing a management system.",
-            date: "2024 - 2024"
+            title: "Full Stack Developer",
+            description: "Designed and built applications from the ground up, covering the complete development lifecycle. Developed an informative app specialized in pregnancy, childbirth, and postpartum care with intuitive interface. Implemented robust management system with scalable backend. Applied best practices in architecture, clean code, and user experience.",
+            date: "2024"
         },
         {
             id: 2,
-            title: "Developer Front-end",
-            description: "I am currently developing mobile apps with React Native and TypeScript, focusing on creating user-friendly interfaces and best practices.",
-            date: "2024 - Undetermined"
+            title: "Front-end Developer",
+            description: "Development of cross-platform mobile applications with React Native and TypeScript. Creation of responsive and intuitive interfaces with focus on user experience. Implementation of clean code patterns, state management, and performance optimization. Integration with RESTful APIs and efficient data consumption.",
+            date: "2024 - Present"
         },
         {
             id: 3,
-            title: "Developer Full Stack",
-            description: "I work with Angular on the frontend and C# on the backend, creating responsive UIs and robust backend systems.",
-            date: "2024 - Undetermined"
+            title: "Full Stack Developer (JOYA Solutions)",
+            description: "Development of scalable applications with C#, Angular, Node.js, and SQL Server. Architecture and construction of serverless solutions with Azure Functions. Creation and maintenance of robust and high-performance RESTful APIs. Implementation of standardized environments with Docker and Git. SQL query optimization and strategic improvements in system architecture and performance. Participation in agile sprints with continuous value delivery.",
+            date: "September 2024 - Present"
         }
     ]
 };

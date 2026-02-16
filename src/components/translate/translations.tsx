@@ -31,7 +31,7 @@ export const translations: Translations = {
     projects: "Projetos",
     contact: "Contatos",
     iam: "Eu sou",
-    description: "Bem-vindo ao meu portfólio online! Sou Luiz Clovis, um desenvolvedor front-end apaixonado por desenvolvimento web e mobile. Ao longo dos anos, tenho me dedicado a transformar ideias criativas em soluções práticas e inovadoras, sempre com foco na excelência e na satisfação do cliente. Sou um estudante brasileiro e desenvolvedor front-end.",
+    description: "Sou Luiz Clovis, um Full Stack Developer brasileiro apaixonado por transformar desafios em soluções práticas e inovadoras. Minha jornada profissional é única: comecei na área operacional, evoluí para análise de dados e agora desenvolvo software com impacto real. Essa trajetória me dá uma perspectiva diferenciada sobre negócios e tecnologia. Sou movido por resolver problemas do mundo real, entregar código de qualidade e contribuir para equipes ágeis. Acredito que bom desenvolvimento começa com empatia pelo usuário e alinhamento com os objetivos do negócio.",
     githubRepo: "Repositório Github!",
     webAccess: "Acesso Web!"
   },
@@ -42,7 +42,7 @@ export const translations: Translations = {
     projects: "Projects",
     contact: "Contacts",
     iam: "I'm",
-    description: "Welcome to my online portfolio! I am Luiz Clovis, a front-end developer passionate about web and mobile development. Over the years, I have dedicated myself to transforming creative ideas into practical and innovative solutions, always focusing on excellence and customer satisfaction. I am a Brazilian student and a Front-end developer.",
+    description: "I'm Luiz Clovis, a Brazilian Full Stack Developer passionate about transforming challenges into practical and innovative solutions. My professional journey is unique: I started in operations, evolved into data analysis, and now develop software with real impact. This background gives me a differentiated perspective on business and technology. I'm driven by solving real-world problems, delivering quality code, and contributing to agile teams. I believe great development starts with user empathy and alignment with business goals.",
     githubRepo: "Github repository!",
     webAccess: "Web Access!"
   }
