@@ -21,8 +21,8 @@ export const experience: ExperienceTranslations = {
         {
             id: 2,
             title: "Desenvolvedor Front-end",
-            description: "Desenvolvimento de aplicativos móveis cross-platform com React Native e TypeScript. Criação de interfaces responsivas e intuitivas com foco em experiência do usuário. Implementação de padrões de código limpo, gestão de estado e otimização de performance. Integração com APIs RESTful e consumo eficiente de dados.",
-            date: "2024 - Presente"
+            description: "Desenvolvimento de aplicativos móveis cross-platform com React Native e TypeScript. Criação de interfaces responsivas e intuitivas com foco em experiência do usuário. Implementação de padrões de código limpo, gestão de estado e otimização de performance.",
+            date: "2024"
         },
         {
             id: 3,
@@ -41,8 +41,8 @@ export const experience: ExperienceTranslations = {
         {
             id: 2,
             title: "Front-end Developer",
-            description: "Development of cross-platform mobile applications with React Native and TypeScript. Creation of responsive and intuitive interfaces with focus on user experience. Implementation of clean code patterns, state management, and performance optimization. Integration with RESTful APIs and efficient data consumption.",
-            date: "2024 - Present"
+            description: "Development of cross-platform mobile applications with React Native and TypeScript. Creation of responsive and intuitive interfaces with focus on user experience. Implementation of clean code patterns, state management, and performance optimization.",
+            date: "2024"
         },
         {
             id: 3,
